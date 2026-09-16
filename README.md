@@ -1,0 +1,1 @@
+# No-minimap-on-platforms
