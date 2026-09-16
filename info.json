@@ -1,10 +1,12 @@
 {
-    "name": "no-minimap-on-platforms",
-    "title": "No minimap on platforms",
+    "name": "no-minimap-on-platforms-2-1",
+    "title": "No minimap on platforms 2.1",
     "description": "As if you can get lost, you just want to see thruster info in the sidebar.",
 
     "version": "1.1.0",
     "author": "Quezler",
+    "homepage": "https://github.com/Theragus/No-minimap-on-platforms",
+
     "factorio_version": "2.1",
 
     "quality_required": false,
@@ -16,6 +18,8 @@
     "expansion_shaders_required": false,
 
     "dependencies": [
+        "! no-minimap-on-platforms",
+
         "? newsletter-for-mods-made-by-quezler",
 
         "? base",

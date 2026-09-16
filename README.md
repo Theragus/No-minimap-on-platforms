@@ -1,10 +1,16 @@
-# No minimap on platforms
+# No minimap on platforms 2.1
 
 Hides the minimap while you are on a space platform, so the sidebar shows thruster
 info instead. As if you can get lost, you just want to see thruster info in the sidebar.
 
 This is a port of [Quezler's mod](https://mods.factorio.com/mod/no-minimap-on-platforms)
 (source in [Quezler/glutenfree](https://github.com/Quezler/glutenfree)) to **Factorio 2.1**.
+All credit for the original mod goes to Quezler; see [LICENSE](LICENSE).
+
+The mod is named `no-minimap-on-platforms-2-1` (title "No minimap on platforms 2.1") so it
+does not collide with Quezler's 2.0 mod on the portal, and it declares
+`! no-minimap-on-platforms` so the two can never be enabled at the same time. The runtime
+setting is namespaced to match: `no-minimap-on-platforms-2-1--uninstalled`.
 
 ## How it works
 
@@ -38,7 +44,7 @@ declares are still valid `info.json` keys in 2.1.
 ./build.sh
 ```
 
-Produces `build/no-minimap-on-platforms_<version>.zip`, ready to drop into your
+Produces `build/no-minimap-on-platforms-2-1_<version>.zip`, ready to drop into your
 Factorio `mods/` folder or upload to the mod portal.
 
 ## License

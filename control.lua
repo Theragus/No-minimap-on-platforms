@@ -1,4 +1,4 @@
-local setting_name_uninstalled = "no-minimap-on-platforms--uninstalled"
+local setting_name_uninstalled = "no-minimap-on-platforms-2-1--uninstalled"
 
 script.on_event(defines.events.on_player_changed_surface, function(event)
   local player = game.get_player(event.player_index) --[[@as LuaPlayer]]

@@ -3,6 +3,8 @@ Version: 1.1.0
 Date: 2026. 09. 16
   Info:
     - Ported to 2.1
+    - Renamed to no-minimap-on-platforms-2-1 so it can live alongside the 2.0 mod on the portal
+    - Marked as incompatible with the original no-minimap-on-platforms
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.3
 Date: 2024. 11. 24
